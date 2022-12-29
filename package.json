@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ognus/google-app-engine-node-deploy-example.git"
   },
-  "author": "Tomasz Kolasa",
+  "author": "Mark Wood-Patrick",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ognus/google-app-engine-node-deploy-example/issues"

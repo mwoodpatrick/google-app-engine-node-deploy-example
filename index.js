@@ -2,9 +2,12 @@ const express = require("express");
 
 const app = express();
 const port = process.env.PORT || 8080;
+var count = 0;
 
 app.get("/", async (req, res) => {
-  res.json({ status: "OK" });
+  count++;
+  res.json({ status: `OK: ${count}` });
+  console.log(`response ${count}`);
 });
 
 app.listen(port, () => {
