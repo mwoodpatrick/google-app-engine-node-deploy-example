@@ -6,7 +6,7 @@ var count = 0;
 
 app.get("/", async (req, res) => {
   count++;
-  res.json({ status: `OK: ${count}` });
+  res.json({ status: `OK: ${count} updated` });
   console.log(`response ${count}`);
 });
 
